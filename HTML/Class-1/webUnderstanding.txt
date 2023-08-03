@@ -1,0 +1,54 @@
+Below code is written as high level code.
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+      accusamus.
+    </p>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h1>
+    <h6>Heading 6</h6>
+  </body>
+</html>
+
+
+
+Problem
+    problem is that machine /  computer / web browser don't understand this code.
+
+What machine actually understands?
+    Machine only understand code written in 0s and 1s form called machine code / binary code / low level code.
+
+
+                High Level code
+                       |
+                       |
+                       |
+                    Conversion
+                       |
+                       |
+                       |
+                Low Level code  - machine only understand this code
+
+first hand programming                0101010101010110100010000111
+second hand programming               add = 1001010100101010101010  -> refers to assembly language
+last hand programming                 add = 2 + 3
+
+
+
+How browser understand HTML code?
+1- V8 Engine first parse / analyse the HTML file that what is available in this file like
+    what are the tags, their attributes, their values and finally what's the text is written
+2- V8 engine creates the DOM(Document Object Model) of the html file that tells the browser how information will be display browser
+3- V8 engine convert code to machine code and display on webbrowser
+

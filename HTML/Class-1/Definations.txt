@@ -1,0 +1,65 @@
+Why web	development?
+	- Source of information
+	- Online Businesses
+Which technologies use in web development?
+1- HTML stand for Hyper Text Markup language
+2- CSS stand for Cascading Style Sheet.
+3- JS stand for Javascript
+
+What is HTML?
+	HTML stands for Hyper Text Markup language.
+	HTML is used for creating structure of the webpage.
+
+What is TAGS / Element means in HTML?
+	Tags used for creating behavior of text.
+
+	Syntax of tag:
+		<p width="500px" Height="500px" > ------------ </p>
+
+		 |		   |
+
+	    Starting Tag	Closing Tag
+
+Types of Tags:
+	There are two types of tags that are as follows
+	1- Traditional Tag
+		i.e.	<p> ------------ </p>
+	2- Self Closing Tag
+		i.e.    <br />
+
+	There two forms of Tags that are as follows
+	1- Block level tag / Element
+		i.e. <p> asdf </p>
+	2- Inline level tag / Element
+		i.e. <b> <b/>
+
+What is attribute means in HTML?
+
+	This is used for giving extra information to HTML Tag.
+
+	Two things in attributes:
+		1- attribute name
+		2- attribute value
+
+	There are two types of attributes in HTML that are given below:
+		1- Attribute with value
+			<p width="500px" Height="500px" > ------------ </p>
+		2- Attribute without value
+			<video src="URL" controls> </video>
+
+How many version of HTML?
+HTML1----> HTML2----> HTML3----> HTML4----> HTML5
+
+
+Strucutre of HTML:
+
+<!DOCTYPE html>	// !DOCTYPE means we going to use html version 5
+<html>
+	<head>
+		// This tags is used for giving information related to our website
+	</head>
+	<body>
+		// All tags used in body for displaying content on the webpage
+	</body>
+</html>
+	
