@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class 3</title>
+  </head>
+  <body>
+    <!-- Forms -->
+    <form action="" method="">
+      <!-- field set used for border of form -->
+      <fieldset>
+        <legend>User &nbsp;Information</legend>
+        <center>
+          <label for="userName">Enter user name:</label>
+          <input type="text" name="name" id="userName" class="userinfo" />
+        </center>
+        <br />
+        <center>
+          <label for="userEmail">Enter user email:</label>
+          <input type="email" name="email" id="userEmail" class="userinfo" />
+        </center>
+        <br />
+        <center>
+          <label for="userPassword">Enter user password:</label>
+          <input
+            type="password"
+            name="password"
+            id="userPassword"
+            class="userinfo"
+          />
+        </center>
+        <center>
+          <label for="userShirtColor">Enter user shirt color:</label>
+          <input
+            type="number"
+            name="userShirtColor"
+            id="userShirtColor"
+            class="userinfo"
+          />
+        </center>
+        <!-- radio -->
+        <center>
+          <p>Select your first favourite hobby:</p>
+        </center>
+        <center>
+          <input type="radio" name="options" id="option1" class="userinfo" />
+          <label for="option1">Book Reading</label>
+          <input type="radio" name="options" id="option2" class="userinfo" />
+          <label for="option2">Gardening</label>
+          <input type="radio" name="options" id="option3" class="userinfo" />
+          <label for="option3">Travelling</label>
+        </center>
+        <br />
+        <!-- Checkbox -->
+        <center>
+          <p>Select your favourite hobbies:</p>
+        </center>
+        <center>
+          <input
+            type="checkbox"
+            name="Hobbiesoption"
+            id="Hobbiesoption1"
+            class="userinfo"
+          />
+          <label for="Hobbiesoption1">Book Reading</label>
+          <input
+            type="checkbox"
+            name="Hobbiesoption"
+            id="Hobbiesoption2"
+            class="userinfo"
+          />
+          <label for="Hobbiesoption2">Gardening</label>
+          <input
+            type="checkbox"
+            name="Hobbiesoption"
+            id="Hobbiesoption3"
+            class="userinfo"
+          />
+          <label for="Hobbiesoption3">Travelling</label>
+        </center>
+        <br />
+
+        <!-- select -->
+        <center>
+          <label for="User1hobbies">Enter one of your favourite hobby:</label>
+          <br />
+          <select name="hobbies" id="User1hobbies">
+            <option value="">Enter hobbies</option>
+            <option value="book_reading">Book Reading</option>
+            <option value="gardening">Gardening</option>
+            <option value="travelling">Travelling</option>
+          </select>
+        </center>
+        <!-- text area -->
+        <center>
+          <label for="allam-iqbal">Write here essay:</label>
+          <textarea
+            name="essay"
+            id="allam-iqbal"
+            cols="40"
+            rows="5"
+            placeholder="Enter your message here"
+          ></textarea>
+        </center>
+        <!-- button -->
+        <center>
+          <input type="button" value="star" />
+        </center>
+        <!-- submit -->
+        <center>
+          <input type="submit" value="submit" />
+        </center>
+      </fieldset>
+
+      <!-- Extra Markup -->
+      <div style="border: green 2px solid">
+        Lorem <span style="color: red">ipsum</span> dolor sit amet.
+      </div>
+      <br />
+      <span style="border: green 2px solid">Lorem ipsum dolor sit amet.</span>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <center>
+        <footer>
+          &copy; 2023. SEERAHT سیرۃ | Institute & Research Centre.
+        </footer>
+      </center>
+      <br />
+      <br />
+      <br />
+      <br />
+      <center><h1>Video && Audio</h1></center>
+      <br />
+      <br />
+      <br />
+      <br />
+      <!-- Two methods : -->
+      <!-- 1 -->
+      <!-- <audio src="./Audios/podcast_audio (5).mp3" controls></audio> -->
+      <!-- 2 -->
+      <audio controls>
+        <source src="./Audios/podcast_io (5).mp3" />
+        <source src="./Audios/podcast_audio (7).mp3" />
+      </audio>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <!-- Two methods -->
+      <!-- 1 -->
+      <!-- <video
+        src="./Video/cljh21tkq000035715n61ieja_raw_submission-video-x-cljh21tkq000035715n61ieja-clkf6zdvo00113b6xec0dcr7h.mp4"
+        controls
+        width="300px"
+        height="300px"
+      ></video> -->
+      <!-- 2 -->
+      <video controls width="300px" height="300px">
+        <source
+          src="./Video/cljh21tkq00005715n61ieja_raw_submission-video-x-cljh21tkq000035715n61ieja-clkf6zdvo00113b6xec0dcr7h.mp4"
+        />
+        <source src="https://youtu.be/a3vw4wMZ1qU" />
+      </video>
+    </form>
+  </body>
+</html>
