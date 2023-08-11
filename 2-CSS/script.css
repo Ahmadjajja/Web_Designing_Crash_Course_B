@@ -1,0 +1,37 @@
+#ExternalHeading1 {
+  text-align: center;
+}
+/* Color types :  */
+/* 1 - name */
+#ExternalSection1 {
+  color: white;
+  background-color: green;
+  padding: 1px 10px;
+}
+/* 2 - RGB */
+#ExternalSection {
+  /* color: rgb(250, 69, 33); */
+  color: rgba(250, 69, 33, 0.7);
+  background-color: rgb(42, 77, 108);
+  padding: 1px 10px;
+  background-image: url("./images/img_lights.jpg");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-attachment: fixed;
+  /* background-size: cover; */
+}
+/* 3 - HSL */
+/* Hue (0 - 360), Saturation (0 - 100%), Lightness(0 - 100%) */
+#ExternalSection3 {
+  color: hsl(79, 50%, 82%);
+  background-color: hsl(52, 19%, 50%);
+  padding: 1px 10px;
+}
+/* 3 - Hexadecimal */
+#ExternalSection4 {
+  color: #7933af;
+  background-color: #4670ba;
+  padding: 1px 10px;
+}
+/* 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 */
+/* 0 1 2 3 4 5 6 7 8 9 A  B  C  D  E  F*/
