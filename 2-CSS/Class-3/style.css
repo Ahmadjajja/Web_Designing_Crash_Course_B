@@ -1,0 +1,44 @@
+p {
+  font-family: "Bree Serif", serif;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-family: "Rowdies", cursive;
+  word-spacing: 30px;
+  line-height: 5;
+}
+span {
+  color: green;
+}
+nav {
+  background-color: black;
+  padding: 20px 0px;
+}
+#leftSection {
+  width: 10%;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+#rightSection {
+  width: 89%;
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: end;
+}
+a {
+  text-decoration: none;
+  margin-right: 15px;
+  color: white;
+  text-decoration-line: underline;
+  text-decoration-color: green;
+  text-decoration-thickness: 5px;
+  text-decoration-style: wavy;
+  letter-spacing: 4px;
+}
+dd {
+  font-family: DM Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0px;
+  text-align: left;
+}
