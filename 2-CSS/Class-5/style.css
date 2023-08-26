@@ -1,0 +1,13 @@
+div {
+  border: 2px red solid;
+  width: 600px;
+  height: 300px;
+  /* position: relative; */
+  overflow: scroll;
+}
+h1 {
+  position: sticky;
+  color: green;
+  top: 0px;
+  z-index: -1;
+}
