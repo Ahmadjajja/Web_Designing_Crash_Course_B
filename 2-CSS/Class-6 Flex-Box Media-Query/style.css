@@ -1,0 +1,43 @@
+/* #mainContainer {
+  width: 70vw;
+  height: 70vh;
+  border: 2px green solid;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+div h1 {
+  border: 1px red solid;
+}
+div h2 {
+  border: 1px red solid;
+} */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  p {
+    color: antiquewhite;
+    background-color: black;
+    border: 2px brown solid;
+  }
+}
+@media screen and (min-width: 556px) and (max-width: 768px) {
+  /* 
+  true and true = true
+  true and false = false
+  false and true = false
+  false and false = false
+  */
+  p {
+    color: coral;
+    background-color: azure;
+    border: 2px yellowgreen solid;
+  }
+}
+@media screen and (max-width: 556px) or (min-width: 992px) {
+  p {
+    color: goldenrod;
+    background-color: whitesmoke;
+    border: 2px rosybrown solid;
+  }
+}
