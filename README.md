@@ -5,7 +5,7 @@ This repository has been created to provide you with practical examples of the c
 <br />
 <br />
 <br />
-![Alt Text](https://drive.google.com/uc?export=view&id=1Uu3ScDMoe4mw_vDtwuSZnUbjTBwPlvc3)<br />
+![Alt Text](https://drive.google.com/uc?export=view&id=1Uu3ScDMoe4mw_vDtwuSZnUbjTBwPlvc3)<br /> 
 
 ## Why Use This Repository?
 
