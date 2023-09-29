@@ -3,8 +3,7 @@
 This repository has been created to provide you with practical examples of the concepts covered in each class. Our goal is to help you better understand the theoretical concepts by providing you with real-world scenarios and code samples. 
 <br />
 <br />
-![Alt Text](https://drive.google.com/uc?export=view&id=1mk74FAuwqGLdw4B3OkR-gGIgdEcZwBY-)<br />
-![Alt Text](https://drive.google.com/uc?export=view&id=1Bn28g9T6jwrm2BSitqYRT34wexGM_Dp5)<br />
+![Alt Text](https://drive.google.com/uc?export=view&id=1V5VQGJVLwJ7o8CUODDIhtW_nqSJ8c3cE) <br />
 
 
 ## Why Use This Repository?
